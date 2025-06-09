@@ -91,7 +91,8 @@ arr[arr.length - 1] = 0;  // Set last as 0 or default
 
 
 Example Program with All CRUD
-public class ArrayCRUD {
+*/
+public class Arrays {
     public static void main(String[] args) {
         // Create
         int[] arr = new int[5];
@@ -126,6 +127,3 @@ public class ArrayCRUD {
         }
     }
 }
-
-
-*/
