@@ -2,7 +2,8 @@
 /*
 ## 🔰 What is an Array in Java?
 
-An **array** is a collection of similar types of elements stored in **contiguous memory locations**. It’s **fixed in size** and **indexed from 0**.
+An **array** is a collection of similar types of elements stored in **contiguous memory locations**. It’s **fixed in size** 
+and **indexed from 0**.
 
 int[] numbers = new int[5];  // Creates an array of size 5
 ```
