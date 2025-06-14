@@ -21,3 +21,30 @@ public class chocolate_distribution_problems {
         
     }
 }
+/*
+ * 💡 Core Idea:
+This is a sliding window problem after sorting.
+
+Steps:
+Sort the array
+
+For every subarray (or window) of size m, calculate:
+
+arr[i + m - 1] - arr[i]
+Return the minimum of all these differences.
+
+⏱️ Time & Space Complexity:
+Metric	Value
+Time	O(n log n) (due to sorting)
+Space	O(1)
+
+✅ Why It Works (Greedy Logic):
+Sorting ensures that the closest values are adjacent, so the best possible minimum difference for m students must be within one of the sorted m-sized windows.
+
+🔁 Pattern Used:
+Sliding window on a sorted array
+
+Greedy choice — pick the window with minimum range
+
+
+ */

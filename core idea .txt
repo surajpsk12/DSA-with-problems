@@ -1,0 +1,47 @@
+
+
+### ✅ 1. **Start From the Problem — Not the Topic**
+
+Instead of saying *“Today I’ll do binary search”*, try this:
+
+> “Today I’ll solve 3 problems labeled as ‘Binary Search — Easy’ and struggle through each for 30 mins.”
+
+Start by guessing the topic only **after** reading the question.
+This builds intuition.
+
+---
+
+### ✅ 2. **Follow the 5-Step Problem-Solving Flow**
+
+| Step            | What to Do                                             |
+| --------------- | ------------------------------------------------------ |
+| 1. Understand   | Read slowly. Ask: “What do I know?”, “What do I need?” |
+| 2. Brute Force  | Think of the dumbest, most obvious way                 |
+| 3. Dry Run      | Manually simulate input and track state                |
+| 4. Optimize     | Ask: “Where am I wasting time or space?”               |
+| 5. Code + Debug | Start with a pen and dry run before typing             |
+
+---
+
+### ✅ 3. **Create a Pattern Journal**
+
+Every time you solve a problem:
+
+* Write: **What was the core idea?**
+* Eg: *“This was about using two pointers to find a target sum.”*
+* Eventually, you’ll start recognizing patterns faster.
+
+---
+
+### ✅ 4. **Daily Practice Strategy**
+
+| Day         | What to do                                         |
+| ----------- | -------------------------------------------------- |
+| Mon-Wed-Fri | 2 Easy + 1 Medium from a known topic               |
+| Tue-Thu     | 1 Medium + 1 Hard discussion / analysis            |
+| Sat-Sun     | Pick 1 topic (like Trees) and solve 3 levels of it |
+
+🔁 **Key Rule**: Struggle 20-30 mins before seeing the solution.
+
+---
+

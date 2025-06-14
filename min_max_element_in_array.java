@@ -18,3 +18,56 @@ public class min_max_element_in_array {
     }
 }
 
+/*
+
+## 💡 **Core Idea / Concept**:
+
+### ➤ **Linear Scan** to find min and max in a **single pass** (O(n) time, O(1) space).
+
+Rather than using two separate loops to find min and max, we:
+
+* Start with `min = ∞`, `max = -∞`
+* Traverse the array **once**
+* Update:
+
+  * `min` if `arr[i] < min`
+  * `max` if `arr[i] > max`
+
+✅ **Single pass** + no extra space = optimal solution
+
+---
+
+---
+
+## 🧠 Pattern Recognition:
+
+This follows the **accumulator pattern**:
+
+> You accumulate a result (min/max) as you iterate.
+
+It's useful in many DSA problems where you're:
+
+* Tracking sum, product, or range
+* Finding extrema (min/max)
+
+---
+
+## 🚀 Time and Space Complexity:
+
+* **Time**: O(n) → You visit each element once
+* **Space**: O(1) → No extra memory used
+
+---
+
+## ✅ Summary:
+
+| Feature      | Description                      |
+| ------------ | -------------------------------- |
+| Concept      | Single-pass comparison           |
+| Pattern      | Accumulator (min/max tracking)   |
+| Complexity   | O(n) time, O(1) space            |
+| Common Usage | Subarray, sorting checks, bounds |
+
+Let me know if you'd like to optimize it further (e.g., with **divide and conquer**) or convert it for a custom object.
+
+ */
